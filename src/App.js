@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>test</h1>
+        <h1>pinterest clone</h1>
       </header>
     </div>
   );
