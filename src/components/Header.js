@@ -1,10 +1,23 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <div>
-      <h1>test</h1>
-    </div>
+    <Wrapper>
+      <LogoWrapper>
+
+      </LogoWrapper>
+      <HomePageButton>
+
+      </HomePageButton>
+      <FollowingButton>
+
+      </FollowingButton>
+      <SearchWrapper>
+        <SearchBarWrapper>
+          
+        </SearchBarWrapper>
+      </SearchWrapper>
+    </Wrapper>
   )
 }
 
