@@ -14,9 +14,12 @@ const Header = () => {
       </FollowingButton>
       <SearchWrapper>
         <SearchBarWrapper>
-          
+
         </SearchBarWrapper>
       </SearchWrapper>
+      <IconsWrapper>
+        
+      </IconsWrapper>
     </Wrapper>
   )
 }
