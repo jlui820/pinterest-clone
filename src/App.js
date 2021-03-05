@@ -2,10 +2,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>pinterest clone</h1>
-      </header>
+    <div className="app">
+      <h1>Header</h1>
+      <h1>Mainboard</h1>
     </div>
   );
 }
