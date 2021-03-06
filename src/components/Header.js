@@ -1,7 +1,7 @@
-import { IconButton } from '@material-ui/core';
 import React from 'react';
+import styled from 'styled-components';
 import PinterestIcon from '@material-ui/icons/Pinterest';
-import IconButton from '@material-ui/core/IconButton';
+import { IconButton } from '@material-ui/core';
 
 const Header = () => {
   return (
