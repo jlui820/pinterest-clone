@@ -11,18 +11,18 @@ const Header = () => {
           <PinterestIcon />
         </IconButton>
       </LogoWrapper>
-      {/* <HomePageButton>
-
+      <HomePageButton>
+        <a href="/">Homepage</a>
       </HomePageButton>
-      <FollowingButton>
-
-      </FollowingButton>
-      <SearchWrapper>
+      {/* <FollowingButton>
+        <a href="/">Homepage</a>
+      </FollowingButton> */}
+      {/* <SearchWrapper>
         <SearchBarWrapper>
 
         </SearchBarWrapper>
-      </SearchWrapper>
-      <IconsWrapper>
+      </SearchWrapper> */}
+      {/* <IconsWrapper>
 
       </IconsWrapper> */}
     </Wrapper>
@@ -43,5 +43,22 @@ const LogoWrapper = styled.div`
     color: #e60023;
     font-size: 32px;
     cursor: pointer;
+  }
+`
+
+const HomePageButton = styled.div`
+  display: flex;
+  height: 48px;
+  min-width: 123px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  cursor:pointer;
+  background-color: rgb(17, 17, 17);
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
   }
 `
